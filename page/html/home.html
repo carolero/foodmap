@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Foodmap</title>
+  </head>
+  <body>
+
+    <!--NAVBAR-->
+    <nav class="nav-box">
+      <div class="nav-title">
+        <h1><i class="fas fa-utensils"></i> Foodmap</h1>
+      </div>
+    </nav>
+
+    <!--FIRST SECTION-->
+    <section class="box-image">
+      <div class="divider"></div>
+      <div id="map" class="col-0 col-10 offset-1" ></div>
+      <!-- <iframe class="col-0 col-10 offset-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.300704315925!2d-46.6644887856622!3d-23.557641284684724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce582d346045bb%3A0x5737e7d673c4bd0a!2zSWJtZWMgLSBGYWN1bGRhZGUsIEdyYWR1YcOnw6NvLCBWZXN0aWJ1bGFyLCBNQkEsIFDDs3MtR3JhZHVhw6fDo28!5e0!3m2!1spt-BR!2sbr!4v1533413731705" allowfullscreen></iframe> -->
+      <div class="divider"></div>
+      <hr class="hr-section">
+      <div class="filter">
+        <div class="divider"></div>
+        <h2>Find your food</h2>
+        <div class="row">
+          <form class="search form-inline my-2">
+            <input class="offset-2 col-0 col-7 form-control" id="search" type="search" placeholder="Let's search some food" aria-label="Search">
+            <button type="button" id="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--SECOND SECTION-->
+
+    <section class="mt-4 rest-box">
+      <div class="row">
+        <div class="col-5 col-12 offset-md-4 img-food">
+            <div class="img my-3 row">
+                <img class="mx-2 mx-md-4" src="../../assets/aji-to.jpg" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/arabesco.jpg" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/cantina.png" alt="" height="100" width="100">
+            </div>
+            <div class="img my-3 row">
+                <img class="mx-2 mx-md-4" src="../../assets/latife.png" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/loving.jpg" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/mcdonalds.png" alt="" height="100" width="100">
+            </div>
+            <div class="img my-3 row">
+                <img class="mx-2 mx-md-4" src="../../assets/pop.png" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/ragazzo.png" alt="" height="100" width="100">
+                <img class="mx-2 mx-md-4" src="../../assets/sushimasa.png" alt="" height="100" width="100">
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-mAhriymhJ392vSLGYCJvp1TpaQpnEVw&callback=initMap">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"crossorigin="anonymous"></script>
+    <script src="../../js/data.js"></script>
+    <script src="../../js/app.js"></script>
+  </body>
+</html>

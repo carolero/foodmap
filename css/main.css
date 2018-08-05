@@ -1,1 +1,113 @@
-/*Add your CSS*/
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0% auto;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.divider {
+    background: transparent;
+    height: 5vh;
+}
+
+
+/*----------NAVBAR----------*/
+
+.nav-title {
+    padding: 4vh;
+    background-color: #000;
+}
+
+.nav-title h1 {
+    color: #FFBD4A;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*----------FIRST SECTION----------*/
+
+.box-image {
+    height: 95vh;
+    background: url(../page/img/imgbr.png) top no-repeat fixed;
+    background-size: cover;
+    color: #c4c4c4;
+}
+
+.box-image iframe {
+    border: none;
+    outline: solid 1px #fff;
+    padding: 1vh;
+}
+
+#map {
+    height: 50%;
+}
+
+.hr-section {
+    background-color: #f7f7f7;
+    width: 50%;
+}
+
+.box-image .filter h2 {
+    text-align: center;
+    color: #FFBD4A;
+}
+
+.box-image .row {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    width: 50vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFBD4A;
+    outline: none;
+    box-shadow: none;
+}
+
+.box-image .filter .row .btn {
+    background-color: transparent;
+    border: none;
+    color: #FFBD4A;
+    font-size: 20px;
+}
+
+.box-image .filter .row .btn:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+
+/*----------SECOND SECTION----------*/
+
+.rest-box {
+    height: 60vh;
+    background-color: #000;
+    color: #c4c4c4;
+}
+
+.img-food {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.food-menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-menu button {
+    background-color: #FFBD4A;
+} */
+
+/*----------THIRD SECTION----------*/
+
